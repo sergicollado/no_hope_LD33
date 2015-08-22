@@ -64,7 +64,7 @@
        fx="470.9386"
        fy="573.61853"
        r="25.080742"
-       gradientTransform="matrix(1,0,0,0.98743905,-421.64289,-347.91847)"
+       gradientTransform="matrix(1,0,0,0.98743905,-447.40178,-460.55048)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -92,7 +92,7 @@
          id="feGaussianBlur10401" />
     </filter>
     <linearGradient
-       gradientTransform="translate(-421.64289,-355.0311)"
+       gradientTransform="translate(-447.40178,-467.66311)"
        inkscape:collect="always"
        xlink:href="#linearGradient10405"
        id="linearGradient10413"
@@ -122,7 +122,7 @@
        fx="64.523788"
        fy="208.65869"
        r="2.8655856"
-       gradientTransform="matrix(1,0,0,0.99604655,0,0.82319174)"
+       gradientTransform="matrix(1,0,0,0.99604655,-25.75889,-111.80882)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -133,7 +133,7 @@
        fx="65.342682"
        fy="207.93629"
        r="3.3655856"
-       gradientTransform="matrix(1.2531492,0.00495129,-0.00805204,2.0379315,-14.867135,-216.1462)"
+       gradientTransform="matrix(1.2531492,0.00495129,-0.00805204,2.0379315,-40.626025,-328.77821)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -144,8 +144,62 @@
        fx="71.726624"
        fy="203.69597"
        r="16.252726"
-       gradientTransform="matrix(1.6040836,0.22669151,-0.22477673,1.5905345,2.4572366,-136.43817)"
+       gradientTransform="matrix(1.6040836,0.22669151,-0.22477673,1.5905345,-23.301653,-249.07018)"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11080"
+       id="radialGradient11119"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.6040836,0.22669151,-0.22477673,1.5905345,91.694211,-34.142274)"
+       cx="71.726624"
+       cy="203.69597"
+       fx="71.726624"
+       fy="203.69597"
+       r="16.252726" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10405"
+       id="linearGradient11121"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-337.99765,-378.14514)"
+       x1="490.02426"
+       y1="561.90979"
+       x2="477.07538"
+       y2="572.50433" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10415"
+       id="radialGradient11123"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.98743905,-335.05384,-448.69786)"
+       cx="470.9386"
+       cy="573.61853"
+       fx="470.9386"
+       fy="573.61853"
+       r="25.080742" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11072"
+       id="radialGradient11125"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2531492,0.00495129,-0.00805204,2.0379315,68.561466,-199.96581)"
+       cx="65.342682"
+       cy="207.93629"
+       fx="65.342682"
+       fy="207.93629"
+       r="3.3655856" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11064"
+       id="radialGradient11127"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.99604655,83.428596,17.003579)"
+       cx="64.523788"
+       cy="208.65869"
+       fx="64.523788"
+       fy="208.65869"
+       r="2.8655856" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -154,9 +208,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="92.612961"
-     inkscape:cy="829.01946"
+     inkscape:zoom="1.979899"
+     inkscape:cx="119.77863"
+     inkscape:cy="863.19008"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -181,39 +235,47 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="opacity:0.83399999;fill:none;stroke:none"
+       id="rect11129"
+       width="81.47953"
+       height="85.686356"
+       x="109.49557"
+       y="64.46843"
+       ry="5.989161" />
     <ellipse
-       style="fill:url(#radialGradient11086);stroke:none;fill-opacity:1"
+       style="fill:url(#radialGradient11086);fill-opacity:1;stroke:none"
        id="path8801"
-       cx="62.35162"
-       cy="211.21782"
+       cx="36.592731"
+       cy="98.585808"
        rx="16.252726"
        ry="16.012589" />
     <ellipse
        ry="7.2347026"
        rx="13.604225"
-       cy="211.21782"
-       cx="62.35162"
+       cy="98.585808"
+       cx="36.592731"
        id="ellipse8803"
        style="fill:#00bfff;stroke:none" />
     <ellipse
        style="fill:#00ffff;stroke:none"
        id="ellipse8805"
-       cx="62.35162"
-       cy="211.21782"
+       cx="36.592731"
+       cy="98.585808"
        rx="7.2634182"
        ry="7.2347026" />
     <ellipse
        ry="14.30034"
        rx="14.514798"
-       cy="211.21782"
-       cx="62.35162"
+       cy="98.585808"
+       cx="36.592731"
        id="ellipse10403"
        style="opacity:0.83399999;fill:url(#linearGradient10413);fill-opacity:1;stroke:none" />
     <ellipse
        ry="21.006903"
        rx="21.321939"
-       cy="211.21782"
-       cx="62.35162"
+       cy="98.585808"
+       cx="36.592731"
        id="ellipse8807"
        style="fill:url(#radialGradient10421);fill-opacity:1;stroke:none;filter:url(#filter10399)" />
     <rect
@@ -289,9 +351,54 @@
     <ellipse
        ry="2.8542566"
        rx="2.8655856"
-       cy="208.22136"
-       cx="65.027008"
+       cy="95.589348"
+       cx="39.26812"
        id="ellipse9985"
-       style="fill:url(#radialGradient11078);stroke:url(#radialGradient11070);fill-opacity:1" />
+       style="fill:url(#radialGradient11078);fill-opacity:1;stroke:url(#radialGradient11070)" />
+    <ellipse
+       ry="16.012589"
+       rx="16.252726"
+       cy="313.5137"
+       cx="151.58859"
+       id="ellipse11107"
+       style="fill:url(#radialGradient11119);fill-opacity:1;stroke:none" />
+    <ellipse
+       style="fill:#00bfff;stroke:none"
+       id="ellipse11109"
+       cx="150.3259"
+       cy="268.30939"
+       rx="13.604225"
+       ry="7.2347026" />
+    <ellipse
+       ry="7.2347026"
+       rx="7.2634182"
+       cy="244.56337"
+       cx="147.80795"
+       id="ellipse11111"
+       style="fill:#00ffff;stroke:none" />
+    <ellipse
+       style="opacity:0.83399999;fill:url(#linearGradient11121);fill-opacity:1;stroke:none"
+       id="ellipse11113"
+       cx="145.99686"
+       cy="188.10379"
+       rx="14.514798"
+       ry="14.30034" />
+    <ellipse
+       style="fill:url(#radialGradient11123);fill-opacity:1;stroke:none;filter:url(#filter10399)"
+       id="ellipse11115"
+       cx="148.94064"
+       cy="110.43845"
+       rx="21.321939"
+       ry="21.006903"
+       inkscape:export-filename="/home/sergi/dev/ld33/app/images/feels/remembers_01.png"
+       inkscape:export-xdpi="152"
+       inkscape:export-ydpi="152" />
+    <ellipse
+       style="fill:url(#radialGradient11125);fill-opacity:1;stroke:url(#radialGradient11127)"
+       id="ellipse11117"
+       cx="148.45561"
+       cy="224.40175"
+       rx="2.8655856"
+       ry="2.8542566" />
   </g>
 </svg>

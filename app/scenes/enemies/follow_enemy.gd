@@ -36,8 +36,8 @@ func _unfollow(body):
 		_update_random_target()
 
 func _fixed_process(delta):
-	
-	if((get_pos().distance_to(target) < 10) and status != 'follow'):
+		
+	if((get_pos().distance_to(target) < 10) and status == 'no_target'):
 		_update_random_target()
 	
 		
@@ -71,3 +71,10 @@ func _update_random_target():
 func _on_visibility_enter_screen():
 	print("enter visibility")
 	set_fixed_process(true)
+
+func degrade(position):
+	target = position
+	get_node("AnimationPlayer").play("degrade")
+	status = "dying"
+	yield( get_node("AnimationPlayer"), "finished" )
+	queue_free()
