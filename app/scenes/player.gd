@@ -15,20 +15,19 @@ func _fixed_process(delta):
 	var move_right = Input.is_action_pressed("ui_right")
 	var move_up = Input.is_action_pressed("ui_up")
 	var move_down = Input.is_action_pressed("ui_down")
-	print(velocity)
+
 	
 	if(move_right):
 		velocity.x += speed*delta
-		print(velocity)
+
 	if(move_left):
 		velocity.x -= speed*delta
-		print(velocity)
+
 	if(move_up):
 		velocity.y -= speed*delta
-		print(velocity)
+
 	if(move_down):
 		velocity.y += speed*delta
-		print(velocity)
 		
 	velocity.x *= friction
 	velocity.y *= friction
