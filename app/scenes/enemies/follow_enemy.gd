@@ -28,6 +28,7 @@ func _on_enter():
 
 func _follow(body):
 	if(body.get_name() == "player" and status != 'dying'):
+		get_node("SamplePlayer").play("sound_follow")
 		status = "follow"
 		target_body = body
 

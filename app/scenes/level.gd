@@ -20,12 +20,13 @@ func _ready():
 
 func _update_zones(zone_name):
 	var zone = get_node("Door/"+zone_name)
-	print(zone.get_child_count())
 	if( zone.get_child_count() == 1):
 		if(zone_name == "zone_8"):
 			show_final()
 			return
-
+			
+		get_node("SamplePlayer").play("sound_dead_zone")
+		get_node("SamplePlayer").play(zone_name)
 		ui.set_center_text("NO HOPE IN "+zone_name)
 		ui.show_center_label()
 		timer.set_wait_time(1)
@@ -35,6 +36,8 @@ func _update_zones(zone_name):
 		
 
 func show_final():
+	get_node("StreamPlayer").set_filename("res://sound/finish.ogg")
+	get_node("StreamPlayer").play()
 	var pos = get_node("Player/player/Camera2D").get_pos()
 	var final_cam = get_node("Final/Camera")
 	final_cam.set_pos(pos)

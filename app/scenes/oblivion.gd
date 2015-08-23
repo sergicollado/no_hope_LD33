@@ -8,11 +8,12 @@ var noise
 var c = 1000000
 var sprites
 var sprites2
-
+var sampler
 
 func _ready():
 	sprites = get_node("Flower").get_children()
 	sprites2 = get_node("Flower1").get_children()
+	sampler = get_node("SamplePlayer")
 	connect("body_enter",self,"flower_eat")
 	get_node("VisibilityNotifier2D").connect("enter_screen",self,"_on_enter")
 	get_node("VisibilityNotifier2D").connect("exit_screen",self,"_on_exit")
@@ -31,6 +32,7 @@ func flower_eat(body):
 	if(not body.has_method('degrade')):
 		return 
 	
+	sampler.play("sound_door")
 	var door_binded = body.get_door_binded()
 	get_tree().get_root().get_node("Node2D/Door/"+door_binded).open()
 	body.degrade(get_pos())
