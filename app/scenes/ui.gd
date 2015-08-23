@@ -14,3 +14,6 @@ func show_center_label():
 
 func set_center_text(text):
 	get_node("Central_label").set_text(text)
+
+func show_label():
+	get_node("Central_label").set_opacity(1)

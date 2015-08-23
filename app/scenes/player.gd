@@ -15,7 +15,10 @@ func _fixed_process(delta):
 	var move_right = Input.is_action_pressed("ui_right")
 	var move_up = Input.is_action_pressed("ui_up")
 	var move_down = Input.is_action_pressed("ui_down")
+	var cancel = Input.is_action_pressed("ui_cancel")
 
+	if(cancel):
+		get_tree().quit()
 	
 	if(move_right):
 		velocity.x += speed*delta

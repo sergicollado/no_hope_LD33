@@ -67,6 +67,7 @@ func _fixed_process(delta):
 
 func _update_random_target():
 	target = Vector2(rand_range(0,1000),rand_range(0,1000))
+	
 
 func _on_visibility_enter_screen():
 	print("enter visibility")
