@@ -28,7 +28,6 @@ func _on_enter():
 
 func _follow(body):
 	if(body.get_name() == "player" and status != 'dying'):
-		print("follow player")
 		status = "follow"
 		target_body = body
 
@@ -48,8 +47,7 @@ func _fixed_process(delta):
 		
 	var direction = ( target - get_pos()).normalized()
 	var desired = (direction * speed)
-	
-	print(get_pos().distance_to(target))
+
 	motion += (desired - motion) * delta
 	
 	
